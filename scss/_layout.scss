@@ -23,6 +23,19 @@ body {
 
 }
 
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  h2 {
+
+  }
+}
+
+
+
+
 @media (min-width: 768px) {
   .container {
     max-width: 728px;

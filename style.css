@@ -73,6 +73,11 @@ body {
   width: 80px;
 }
 
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 728px;

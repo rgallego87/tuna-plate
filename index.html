@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/css/uikit.min.css" />
     <link rel="stylesheet" href="style.css">    
   </head>
   <body>
@@ -24,8 +25,8 @@
       </div>
       <div class="scrolldown-btn">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui debitis quibusdam iste excepturi placeat tempore dolore illum necessitatibus fuga dignissimos delectus aliquid quos aperiam nihil, harum explicabo ad ut.</p>
-        <i></i>
       </div>
+      <i></i>
     </section>
     <section class="benefits container">
       <h2>So many benefits</h2>
@@ -45,9 +46,10 @@
         <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ratione unde rem cupiditate debitis sunt blanditiis! Aperiam, perferendis suscipit! Labore quam nisi, in natus voluptas veritatis perferendis autem consequuntur quod?</a>
       </div>
     </section>
+
     <section class="testimonials container">
       <h2>So many testimonials</h2>
-      <div class="testimonial">
+      <!-- <div class="testimonial">
           <img src="http://via.placeholder.com/200/200" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, praesentium. Amet dolores aliquid perspiciatis ipsa a laborum eligendi nesciunt praesentium aliquam repellendus totam distinctio ratione, esse neque blanditiis! Fugit, nulla.</p>
       </div>
@@ -58,7 +60,60 @@
       <div class="testimonial">
           <img src="http://via.placeholder.com/200/200" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, praesentium. Amet dolores aliquid perspiciatis ipsa a laborum eligendi nesciunt praesentium aliquam repellendus totam distinctio ratione, esse neque blanditiis! Fugit, nulla.</p>
-      </div>
+      </div> -->
+
+      <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="clsActivated: uk-transition-active; center: true">
+
+        <div uk-slider="autoplay: true, autoplay-interval: 1000">
+
+          <div class="uk-position-relative uk-visible-toggle uk-light">
+      
+              <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                  <li>
+                      <div class="uk-card uk-card-default">
+                          <div class="uk-card-media-top">
+                              <img src="https://instagram.fmad3-4.fna.fbcdn.net/vp/57655d62bdebf40b2f5519cc6e0ba0a4/5C0CFFCC/t51.2885-19/s320x320/32606101_646860415654752_3023678116213030912_n.jpg" alt="">
+                          </div>
+                          <div class="uk-card-body">
+                              <h3 class="uk-card-title">@lovelypepa</h3>
+                              <p>Never felt my skin as fresh and soft as now. I’m ready for the summer now! Thanks you @superfoods.inc for this amazing coconut oil products #readyforthesummer #ibiza2018</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="uk-card uk-card-default">
+                          <div class="uk-card-media-top">
+                              <img src="https://instagram.fmad3-4.fna.fbcdn.net/vp/d444d173346a46d1d07d082fe4ab44fa/5BF25066/t51.2885-19/s320x320/23416448_1330233863770321_2536379991621369856_n.jpg" alt="">
+                          </div>
+                          <div class="uk-card-body">
+                              <h3 class="uk-card-title">@galagonzalez</h3>
+                              <p>Don’t forget to include your coconut oil in your luggage, you won’t regret when you see your body shine this summer ;) @superfoods.inc #summer2018 #coconutoil #naturalproducts #healthy skin</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="uk-card uk-card-default">
+                          <div class="uk-card-media-top">
+                              <img src="https://instagram.fmad3-4.fna.fbcdn.net/vp/d444d173346a46d1d07d082fe4ab44fa/5BF25066/t51.2885-19/s320x320/23416448_1330233863770321_2536379991621369856_n.jpg" alt="">
+                          </div>
+                          <div class="uk-card-body">
+                              <h3 class="uk-card-title">@dulceida</h3>
+                              <p>Superfood Inc. Coconut oil is my go to product!, be it for cooking, as a moisturiser and even removing my makeup!</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>             
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+            </div>
+        
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        
+        </div>
+
     </section>
     <section class="certifications container">
       <h2>So many certifications</h2>
@@ -73,7 +128,11 @@
     </section>
     <footer class="container">
       <p>Copyright or copy everything by COCOLOCO awesome team</p>
-    </footer>    
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.10/js/uikit-icons.min.js"></script>    
+
     <script src="main.js"></script>
   </body>
 </html>
