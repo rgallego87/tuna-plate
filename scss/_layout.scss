@@ -28,7 +28,6 @@ body {
 
 }
 
-<<<<<<< HEAD
 .hero-intro {
   background-image: url('assets/img/takahiro-taguchi-585549-unsplash.jpg');
   background-repeat: no-repeat;
@@ -91,25 +90,39 @@ body {
 
 }
 
-@media (min-width: $desktop-width) {
-=======
-.testimonials {
+.certifications {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
   h2 {
-
+    width: 100%;
   }
+  
+  .brand-logo {
+    width: 33.3%;
+    padding: 0 10px;
+  }
+
 }
 
+// @media (min-width: $desktop-width) {
+// .testimonials {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+
+//   h2 {
+
+//   }
+// }
 
 
 
-@media (min-width: 768px) {
->>>>>>> bedef1f4e8bd241ed1ae15f5ef1607ad3d359df3
-  .container {
-    max-width: $desktop-width;
-    margin: 0 auto;
-  }
-}
+
+// @media (min-width: 768px) {
+//   .container {
+//     max-width: $desktop-width;
+//     margin: 0 auto;
+//   }
+// }
