@@ -11,6 +11,49 @@ body {
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16pt;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.65em;
+}
+
+h2 {
+  font-size: 1.93em;
+}
+
+h3 {
+  font-size: 1.62em;
+}
+
+h4 {
+  font-size: 1.62em;
+}
+
+p {
+  font-size: 1em;
+  color: #1A7E80;
+}
+
+.cta-text {
+  font-weight: 600;
+  font-size: 1.125em;
+}
+
+.scrolldown-btn {
+  font-weight: 500;
+  font-size: 1.125em;
+}
+
+body {
+  background-color: #1A7E80;
+}
+
 .container {
   margin: 0 auto;
 }
