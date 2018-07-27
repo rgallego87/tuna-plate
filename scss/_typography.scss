@@ -7,19 +7,23 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: 2.6em;
+  font-size: 42pt;
+  line-height: 0;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 31pt;
+  font-weight: 500;
 }
 
 h3 {
-  font-size: 1.62em;
+  font-size: 23pt;
+  font-weight: 500;
 }
 
 h4 {
-  font-size: 1.3em;
+  font-size: 18pt;
+  font-weight: 400;
 }
 
 p {
@@ -29,7 +33,8 @@ p {
 
 .cta-text {
   font-weight: 600;
-  font-size: 1.125em;
+  font-size: 18pt;
+  padding-top: 95px;
 }
 
 .scrolldown-btn {
@@ -37,6 +42,17 @@ p {
   font-size: 1.125em;
 }
 
+
+hero-intro {
+
+  h2{
+    line-height: 0.3;
+  }
+  h3 {
+    line-height: 0.3;
+  }
+
+}
 
 .container-secondary {
   color: $primary;
